@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.menuPrincipal{
+	width: 100%;
+}
+.conteudo1{
+	width: 100%;
+	margin-bottom: 8vh;
+}
+.tituloItem{
+	width: 1000px;
+	margin-left: 18vh;
+	font-family: sans-serif;
+	color: rgb(35, 35, 35);
+}
+@media(max-width: 640px){
+	.tituloItem{
+		width: 240px;
+		margin-left: 2px;
+		font-size: 22px;
+	}
+}
+.paragrafoItem{
+	width: 1000px;
+	margin-left: 18vh;
+	font-family: sans-serif;
+	color: rgb(68, 112, 100);
+}
+@media(max-width: 640px){
+	.paragrafoItem{
+		width: 100%;
+		margin-left: 2px;
+		font-size: 18px;
+	}
+}
+span{
+	color: rgb(35, 35, 35);
+}
+.conteudo2{
+	width: 100%;
+}
+.bgImage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.imageCat{
+	width: 72%;
+	border: solid 28px rgb(234, 209, 212);
+}
+@media(max-width: 640px){
+	.imageCat{
+		width: 80%;
+		border: solid 16px rgb(234, 209, 212);
+	}
+}
+.paragrafoItem2{
+	width: 1000px;
+	margin-left: 18vh;
+	font-family: sans-serif;
+	color: rgb(68, 112, 100);
+	margin-bottom: 8vh;
+	margin-top: 4vh;
+}
+@media(max-width: 640px){
+	.paragrafoItem2{
+		width: 100%;
+		margin-left: 2px;
+		font-size: 18px;
+	}
+}
+.rodaPe{
+	width: 100%;
+}
+.imageCat2{
+	width: 100%;
+}
+@media(max-width: 640px){
+	.imageCat2{
+		width: 100%;
+	}
+}
+.text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.textItem{
+	width: 290px;
+	height: 38px;
+	text-align: center;
+	font-family: sans-serif;
+	position: relative;
+	bottom: 70px;
+	background: #fff;
+}
